@@ -1,0 +1,82 @@
+.NoWastingTimeBackground { 
+    backdrop-filter: blur(50px) brightness(60%) !important;
+    background-color: rgba(0, 0, 0, 0.034) !important;
+    position: absolute !important;
+    display: flex !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 20000000 !important;
+}
+
+.NoWastingTimeNoScrool {
+  height: 100% !important;
+  overflow-y: hidden !important;
+}
+
+.NoWastingTimeText {
+    color: white !important;
+    display: flex !important;
+    background-color: rgb(11, 142, 218) !important;
+    font-size: 200% !important;
+    width: 30% !important;
+    padding: 20px;
+    border-radius: 10px;
+    height: 30vh !important;
+    flex-direction: column !important;
+}
+
+.NoWastingTimeParagraph {
+    display: flex;
+    width: 100%;
+    text-justify: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.NoWastingTimeParagraph > ul {
+    text-align: start;
+    align-self: center;
+}
+
+.NoWastingTimeButtons {
+    margin: 10px;
+    width: 100% !important;
+    height: 5vh !important;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.NoWastingTimeButton {
+    width: 50% !important;
+    color: white !important;
+    height: 100% !important;
+    font-size: 130% !important;
+    margin: 10px;
+}
+
+.NoWastingTimeOk {
+    background-color: green !important;
+    border-radius: 5px;
+    border-color: green;
+}
+
+.NoWastingTimeOk:hover {
+    background-color: rgb(0, 94, 0) !important;
+    border-color: rgb(0, 94, 0) !important;
+}
+
+.NoWastingTimeNo {
+    background-color: red !important;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.NoWastingTimeNo:hover {
+    background-color: rgb(155, 0, 0) !important;
+    border-color: rgb(155, 0, 0) !important;
+}

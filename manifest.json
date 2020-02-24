@@ -1,0 +1,22 @@
+{
+    "name": "Are you sure?",
+    "version": "1.0",
+    "description": "Suggests that you don't waste time on sites like youtube",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.youtube.com/*",
+                "*://*.facebook.com/*",
+                "*://*.quora.com/*"
+            ],
+            "all_frames": true,
+            "js": [
+                "contentScript.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "myStyles.css"
+    ]
+}
