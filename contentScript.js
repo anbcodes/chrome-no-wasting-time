@@ -57,3 +57,7 @@ style.href = chrome.extension.getURL('myStyles.css');
 (document.head || document.documentElement).appendChild(style);
 
 popup();
+
+setInterval(() => {
+    popup();
+}, 1000 * 60 * 30);
